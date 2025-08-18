@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+:root {
+  --dark-purple: #3E1E8A;
+  --highlight: rgba(239, 130, 100, 0.551);
+  --hover: rgba(62, 30, 138, 0.083);
+  --button-border: rgba(87, 59, 154, 0.159);
+}
+
+@theme inline {
+  --color-text: var(--dark-purple);
+}
+
+body {
+  background: url('/background.svg');
+  background-repeat: repeat;
+  background-size: 10vw;
+  font-family: var(--font-rubik), Arial, Helvetica, sans-serif;
+  color: var(--dark-purple);
+}
+
+.main-container {
+  padding: 0 9vw;
+}
+
+.header-img {
+  width: 70%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+.list-header {
+  display: flex;
+  padding-bottom: 2vh;
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+.checklist {
+  padding-bottom: 3vh;
+  list-style: decimal;
+  list-style-position: outside;
+  margin-left: 2em;
+}
+
+.checklist li {
+  display: list-item;
+  padding: 5px 2px;
+}
+
+.list-button {
+  background: none;
+  border: 1px solid var(--button-border);
+  padding: 8px 12px;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.1s;
+  user-select: text;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+}
+
+.list-button:hover {
+  background-color: var(--hover);
+}
+
+.list-button:active {
+  background-color: var(--highlight);
+}
+
+.list-button.clicked {
+  background-color: var(--highlight);
+}
+
+.description {
+  padding-bottom: 2vh;
+}
