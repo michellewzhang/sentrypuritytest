@@ -20,7 +20,7 @@ body {
 }
 
 .main-container {
-  padding: 0 9vw;
+  padding: 0 7vw 7vh 7vw;
 }
 
 .header-img {
@@ -80,4 +80,36 @@ body {
 
 .description {
   padding-bottom: 2vh;
+}
+
+.submit-button {
+  background-color: var(--dark-purple);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.submit-button:hover {
+  background: linear-gradient(45deg, #E33B65, #FF9A68, #E33B65);
+  background-size: 200% 200%;
+  animation: gradientShift 2s ease infinite;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(227, 59, 101, 0.3);
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }

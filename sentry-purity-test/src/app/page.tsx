@@ -52,6 +52,8 @@ export default function Home() {
         </li>
       ))}
       </ol>
+
+    <button className="submit-button">Calculate my score</button>
    </div>
   );
 }
