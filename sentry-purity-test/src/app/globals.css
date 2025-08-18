@@ -82,7 +82,7 @@ body {
   padding-bottom: 2vh;
 }
 
-.submit-button {
+.fancy-button {
   background-color: var(--dark-purple);
   color: white;
   border: none;
@@ -91,10 +91,16 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
   position: relative;
-  overflow: hidden;
 }
 
-.submit-button:hover {
+.button-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.fancy-button:hover {
   background: linear-gradient(45deg, #E33B65, #FF9A68, #E33B65);
   background-size: 200% 200%;
   animation: gradientShift 2s ease infinite;
@@ -112,4 +118,29 @@ body {
   100% {
     background-position: 0% 50%;
   }
+}
+
+.results-header {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.results-score {
+  font-size: 4rem;
+}
+
+.results-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.take-again-button {
+  margin-top: 8vh;
+}
+
+.action-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 2vh;
 }

@@ -3,9 +3,11 @@
 import Image from "next/image";
 import { CHECKLIST } from "./checklist";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
   const [clickedItems, setClickedItems] = useState<Set<number>>(new Set());
+  const router = useRouter();
 
   const handleItemClick = (idx: number) => {
     setClickedItems(prev => {
@@ -17,6 +19,11 @@ export default function Home() {
       }
       return newSet;
     });
+  };
+
+  const handleSubmit = () => {
+    const score = 100 - clickedItems.size;
+    router.push(`/results?score=${score}`);
   };
 
   return (
@@ -53,7 +60,11 @@ export default function Home() {
       ))}
       </ol>
 
-    <button className="submit-button">Calculate my score</button>
+    <button className="fancy-button" onClick={handleSubmit}>
+      <span className="button-text">
+        Calculate my score 🙈
+      </span>
+    </button>
    </div>
   );
 }
