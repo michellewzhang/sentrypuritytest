@@ -64,7 +64,9 @@ export default function Home() {
       </span>
     </button>
 
-    <div className="disclaimer">Inspired but not affilaited with the Rice Purity Test 🤪 Created by Michelle^2 for Hackweek 2025.</div>
+    <div className="disclaimer">{`Created by Michelle^2 for Hackweek 2025. Vote for us in the Sentry AF category pls <3`}
+      <br></br>{`Inspired but not affiliated with the Rice Purity Test 🤪 `}
+    </div>
    </div>
   );
 }
