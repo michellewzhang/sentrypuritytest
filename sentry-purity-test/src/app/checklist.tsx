@@ -68,7 +68,7 @@ export const CHECKLIST = [
     "Received a 🥔",
     "Accidentally gibbed someone a 🥔 because they were tagged in a message",
     "Been on the weekly 'top taters' Slack report",
-    "Broke prod",
+    "Broken prod",
     "Caused an incident",
     "Caused a P0 incident",
     "Been paged for an incident at an ungodly hour",
