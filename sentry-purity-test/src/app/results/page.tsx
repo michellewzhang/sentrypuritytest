@@ -5,9 +5,37 @@ import Header from "../header";
 import { generateScoreImage } from "../../utils/imageGenerator";
 import { Suspense } from "react";
 
+function ScoreToDescription(score: number) {
+  switch (true) {
+    case score >= 90:
+      return "you are a baby. a little cinnamon roll too pure for this world."
+    case score >= 80:
+      return "dippin your toes in the water"
+    case score >= 70:
+      return "you've been around the block"
+    case score >= 60:
+      return "getting comfortable"
+    case score >= 50:
+      return "you are very cool"
+    case score >= 40:
+      return "you are legendary"
+    case score >= 30:
+      return "you're my hero"
+    case score >= 20:
+      return "people are perceiving you"
+    case score >= 10:
+      return "everyone has a story about you"
+    case score >= 0:
+      return "are you david cramer?"
+    default:
+      return "um idk how this happens lol"
+  }
+}
+
 function ResultsContent() {
   const searchParams = useSearchParams();
   const score = searchParams.get('score');
+  const description = ScoreToDescription(Number(score));
   
   const handleShare = async () => {
     try {
@@ -23,7 +51,7 @@ function ResultsContent() {
 
       <h1 className="results-header">Your score:</h1>
       <div className="results-score">{score}</div>
-      <div>maybe insert some ai generated description poking fun at you</div>
+      <div>{description}</div>
 
       <div className="action-buttons">
         <button 
