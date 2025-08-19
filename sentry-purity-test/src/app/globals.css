@@ -30,6 +30,7 @@ body {
 .header {
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
 .list-header {
@@ -95,7 +96,7 @@ body {
 
 .button-text {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 10px;
   flex-direction: row;
 }

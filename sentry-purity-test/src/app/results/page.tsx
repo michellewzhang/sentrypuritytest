@@ -1,16 +1,25 @@
 "use client";
 import { useSearchParams } from "next/navigation";
 import Image from "next/image";
+import Header from "../header";
+import { generateScoreImage } from "../../utils/imageGenerator";
+import { Suspense } from "react";
 
-export default function Results() {
+function ResultsContent() {
   const searchParams = useSearchParams();
   const score = searchParams.get('score');
   
+  const handleShare = async () => {
+    try {
+      await generateScoreImage(score);
+    } catch (error) {
+      console.error('Error generating image:', error);
+    }
+  };
+
   return (
     <div className="main-container results-container">
-      <div className="header">
-        <Image className="header-img" src="/header.png" alt="sentry purity test header" width={3120} height={1075}/>
-      </div>
+      <Header/>
 
       <h1 className="results-header">Your score:</h1>
       <div className="results-score">{score}</div>
@@ -28,14 +37,22 @@ export default function Results() {
 
         <button 
           className="fancy-button take-again-button"
-          onClick={() => {}}
+          onClick={handleShare}
         >
           <span className="button-text">
-            Share results!
+            Save results!
             <Image src="/logo.svg" alt="logo" width={25} height={25}/>
           </span>
         </button>
-      </div>
+      </div> 
     </div>
+  );
+}
+
+export default function Results() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <ResultsContent />
+    </Suspense>
   );
 }

@@ -1,9 +1,9 @@
 "use client";
 
-import Image from "next/image";
 import { CHECKLIST } from "./checklist";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import Header from "./header";
 
 export default function Home() {
   const [clickedItems, setClickedItems] = useState<Set<number>>(new Set());
@@ -28,9 +28,7 @@ export default function Home() {
 
   return (
   <div className="main-container">
-    <div className="header">
-      <Image className="header-img" src="/header.png" alt="sentry purity test header" width={3120} height={1075}/>
-    </div>
+    <Header/>
 
     <div className="description">
        Welcome to the Sentry Purity Test. This is your official (not really) 
