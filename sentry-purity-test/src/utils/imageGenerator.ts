@@ -1,4 +1,4 @@
-export const generateScoreImage = (score: string | null): Promise<void> => {
+export const generateScoreImage = (score: string | null, description: string): Promise<void> => {
   return new Promise((resolve, reject) => {
     try {
       const canvas = document.createElement('canvas');
@@ -23,7 +23,7 @@ export const generateScoreImage = (score: string | null): Promise<void> => {
         ctx.fillText(score || '0', canvas.width / 2, 500);
         
         ctx.font = '25px Rubik, Arial, sans-serif';
-        ctx.fillText('description here', canvas.width / 2, 650);
+        ctx.fillText(description, canvas.width / 2, 650);
         
         const link = document.createElement('a');
         link.download = `sentry-purity-score-${score}.png`;

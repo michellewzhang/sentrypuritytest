@@ -39,7 +39,7 @@ function ResultsContent() {
   
   const handleShare = async () => {
     try {
-      await generateScoreImage(score);
+      await generateScoreImage(score, description);
     } catch (error) {
       console.error('Error generating image:', error);
     }
