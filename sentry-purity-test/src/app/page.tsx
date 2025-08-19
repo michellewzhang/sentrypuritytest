@@ -63,6 +63,8 @@ export default function Home() {
         Calculate my score 🙈
       </span>
     </button>
+
+    <div className="disclaimer">Inspired but not affilaited with the Rice Purity Test 🤪 Created by Michelle^2 for Hackweek 2025.</div>
    </div>
   );
 }
