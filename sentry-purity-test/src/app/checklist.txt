@@ -1,0 +1,100 @@
+Worked from SFO
+Worked from YYZ
+Worked from VIE
+Worked from SEA
+Worked from AMS
+Asked about the New York office and found out it doesn't exist
+Exercised options
+Participated in a tender offer
+Got a raise
+Got a promotion
+Got in trouble with Legal
+Was a Sentry intern
+Returned to Sentry after completing an internship
+Celebrated your one year Sentriversary
+Celebrated your five year Sentriversary
+Celebrated your ten year Sentriversary
+Went on sabbatical
+Merged a PR to sentry
+Merged a PR to getsentry
+Merged a PR to sentry-options-automator
+Told a friend that you worked at Sentry and they knew what it was
+Told a friend that you worked at Sentry and they didn't know what it was
+Got a friend to join Sentry
+Received feedback from a friend who uses Sentry
+Sold a customer on Sentry
+Got @-ed by a customer on a GitHub issue
+Sudoed into a customer account for a flimsy reason
+Accidentally modified customer data
+Took a customer call at an ungodly hour
+Messed up a rebase and tagged the whole company on a PR
+Bent down awkwardly to check if a meeting room was occupied
+Went on a walking one on one in Salesforce Park
+Played Killer Queen
+Forgot your badge
+Got stuck in the SFO stairwell
+Got stuck in the YYZ elevator
+Have at least one article of Sentry-branded clothing
+Have at least five articles of Sentry-branded clothing
+Worn an outfit of entirely Sentry-branded clothing
+Went on a karaoke outing
+Stayed at a happy hour after midnight
+Played Dutch Blitz
+Featured in Das Office
+Crawled through the Spider Box
+Fell asleep in the library
+Participated in Hackweek
+Worked on a Hackweek project that no one uses anymore
+Worked on a Hackweek project that made it to production
+Created a slide deck
+Recorded a Show and Tell presentation
+Got name dropped in an All Hands meeting
+Presented at an All Hands meeting
+Received a Sentry Snaps gift card
+Won a Value Award
+Won a Hackweek award
+Wrote a shipped post
+Wrote a public-facing blog post
+Got featured on Sentry social media
+Have a slackmoji of yourself
+Have a slackbot response for yourself
+Uploaded a slackmoji
+Created a slackbot response
+Yubukeyed in a company-wide channel
+Joined aguacooler
+Dented in aguacooler
+Gibbed a :potato:
+Received a :potato:
+Accidentally gibbed someone a potato because they were tagged in a message
+Got on the weekly 'top taters' Slack report
+Broke prod
+Caused an incident
+Caused a P0 incident
+Got paged for an incident at an ungodly hour
+Have been :cheese_wedge:ed on Slack
+Hit the reaction limit on Slack
+Attended a holiday party
+Got sloshed at a holiday party
+Worked a conference booth
+Gave a talk at a conference
+Went to R&G Lounge for a goodbye dinner 
+Lurked the new grad channel and felt old
+Had an office crush
+Had an office relationship
+Got spicy in the office
+Had an office enemy
+Cried because of a coworker
+Made a coworker cry
+Took a day off without "taking a day off"
+Did not RTO on an RTO day
+Came into the office on a weekend
+Came into the office while technically OOO
+Left your trash in a meeting room
+Left your dishes in the bathroom
+Used the office as your personal grocery store
+Got into a slack thread argument with over 100 msgs
+Got into a fight with David Cramer on Slack
+Went through the Sentry IPO
+Retired with money from the Sentry IPO
+Willingly left Sentry
+Got fired from Sentry
