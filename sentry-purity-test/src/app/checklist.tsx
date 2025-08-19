@@ -96,7 +96,7 @@ export const CHECKLIST = [
     "Gotten into a slack thread argument with over 100 messages",
     "Gotten into a fight with David Cramer on Slack",
     "Gone through the Sentry IPO",
-    "Joined Sentry before it was 100 employees",
+    "Worked at Sentry before it had 100 employees",
     "Willingly left Sentry",
     "Been fired from Sentry"
 ]
