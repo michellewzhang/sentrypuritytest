@@ -39,7 +39,7 @@ export const CHECKLIST = [
     "Owned at least one article of Sentry-branded clothing",
     "Owned at least five articles of Sentry-branded clothing",
     "Worn an outfit of entirely Sentry-branded clothing",
-    "Went on a karaoke outing",
+    "Gone on a karaoke outing",
     "Stayed at a happy hour after midnight",
     "Played Dutch Blitz",
     "Listened to the Syntax podcast",
