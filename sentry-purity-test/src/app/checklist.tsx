@@ -19,7 +19,6 @@ export const CHECKLIST = [
     "Gone on sabbatical",
     "Merged a PR to sentry",
     "Merged a PR to getsentry",
-    "Merged a PR to sentry-options-automator",
     "Told a friend that you worked at Sentry and they knew what it was",
     "Told a friend that you worked at Sentry and they didn't know what it was",
     "Gotten a referral bonus for referring a friend",
@@ -93,10 +92,11 @@ export const CHECKLIST = [
     "Left your dishes in the bathroom",
     "Used the office as your personal grocery store",
     "Been caught by another employee stealing snacks/drinks from the office",
-    "Gotten into a slack thread argument with over 100 messages",
+    "Gotten into a Slack thread argument with over 100 messages",
     "Gotten into a fight with David Cramer on Slack",
     "Gone through the Sentry IPO",
     "Worked at Sentry before it had 100 employees",
+    "Thought about leaving Sentry",
     "Willingly left Sentry",
     "Been fired from Sentry"
 ]
